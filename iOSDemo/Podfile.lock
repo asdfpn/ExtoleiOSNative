@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.1.0)
+  - ExtoleConsumerAPI (0.0.17):
+    - Alamofire (~> 5.1.0)
+  - ExtoleMobileSDK (0.0.48):
+    - ExtoleConsumerAPI (~> 0.0.17)
+    - Logging (~> 1.4)
+    - ObjectMapper (~> 4.1.0)
+    - SwiftEventBus (~> 5.0.0)
+  - Logging (1.4.0)
+  - ObjectMapper (4.1.0)
+  - SwiftEventBus (5.0.0)
+
+DEPENDENCIES:
+  - ExtoleMobileSDK (>= 0.0.31)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ExtoleConsumerAPI
+    - ExtoleMobileSDK
+    - Logging
+    - ObjectMapper
+    - SwiftEventBus
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  ExtoleConsumerAPI: 4e512cfee398d5fba446ca04076ee382cbf0979b
+  ExtoleMobileSDK: f68bb371a53c44bf5430b9e0b41e1d33c04199e0
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  ObjectMapper: 822c1d073f5eeeeca3568698a7a6c0e59f7135c4
+  SwiftEventBus: b30f617a6aca5a9336464b4d3f5931034762f2d5
+
+PODFILE CHECKSUM: bdcb0ebcc4f76a6aaaa22574907cb9666eb344a9
+
+COCOAPODS: 1.15.2
